@@ -1,0 +1,85 @@
+.home {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+    background-color: black;
+    line-height: 3rem;
+    height: 90vh;
+    color: rgb(218, 218, 218);
+    flex-wrap: wrap;
+}
+.home .intro{
+    
+    width: 50%;
+    line-height: 2rem;
+}
+.home .intro h1{
+    margin: 1.5rem 0rem;
+    padding: 0;
+    font-size: 40px;
+}
+.home .intro h1 span {
+    padding-left: 0.5rem;
+    color: rgb(64, 16, 109);
+    background-color: rgb(164, 97, 226); /* Set the background color to a light color */
+    box-shadow: 
+        0 0 5px rgb(186, 123, 244), 
+        0 0 10px rgb(186, 123, 244), 
+        0 0 20px rgb(186, 123, 244), 
+        0 0 30px rgb(186, 123, 244);
+    
+    transition: box-shadow 0.5s ease-in-out; /* Smooth transition for the glow effect */
+}
+.home .intro p {
+    margin: 0.5rem 0rem;
+    padding:0.1rem 0rem;
+    font-size: 20px;
+}
+.home .intro button {
+    margin-top: 0.5rem;
+    width: 20%;
+    font-size: 1.2rem;
+    display: block;
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+    border: none;
+    color: white;
+    background-color: rgb(64, 16, 109);
+    transition: 0.5s;
+    cursor: pointer;
+    font-weight: 800;
+}
+.home .intro button:hover{
+    width: 50%;
+    background-color: rgb(218, 218, 218);
+    color: rgb(64, 16, 109);
+}
+.home .intro ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+.home .intro ul li a {
+    display: inline-flex;
+}
+.home .intro ul li a i {
+    color: white;
+    font-size: 29px;
+}
+
+.home .homeImg {
+    width: 30%;
+}
+.home .homeImg img {
+    width: 100%;
+    border-radius: 40%;
+    box-shadow: 
+        0 0 5px rgb(164, 97, 226), 
+        0 0 10px rgb(164, 97, 226), 
+        0 0 20px rgb(164, 97, 226),
+        0 0 30px rgb(164, 97, 226);
+    ;
+    opacity: 0.8;
+}

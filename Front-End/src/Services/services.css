@@ -1,0 +1,107 @@
+.services {
+    box-sizing: border-box;
+    height: 90vh;
+    margin-top: 1.5rem;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.services p {
+    width: 50%;
+}
+.services .container {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.services .container .front{
+    border-right: 2px solid rgb(164, 97, 226);
+    border-radius: 100%;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.services .container .front .spans {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.services .container .front .spans span {
+    width: 100%;
+    height: 10%;
+    border-radius: 2rem;
+    background: linear-gradient(to right, rgb(164, 97, 226) 0%, rgba(0, 0, 0, 0) 70%);
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+.services .container .front .serveTitle {
+    width: 40%;
+    height: 12rem;
+    border-left: solid 2px rgb(164, 97, 226);
+    border-bottom: solid 2px rgb(164, 97, 226);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    font-size: 2.5rem;
+    background: linear-gradient(to right, rgb(164, 97, 226) 0%, rgba(0, 0, 0, 0) 70%);
+}
+.services .container .back{
+    border-left: 2px solid rgb(164, 97, 226);
+    border-radius: 100%;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.services .container .back .spans {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.services .container .back .spans span {
+    width: 100%;
+    height: 10%;
+    border-radius: 2rem;
+    background: linear-gradient(to left, rgb(164, 97, 226) 0%, rgba(0, 0, 0, 0) 70%);
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+.services .container .back .serveTitle {
+    width: 40%;
+    height: 12rem;
+    border-right: solid 2px rgb(164, 97, 226);
+    border-bottom: solid 2px rgb(164, 97, 226);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    font-size: 2.5rem;
+    background: linear-gradient(to left, rgb(164, 97, 226) 0%, rgba(0, 0, 0, 0) 70%);
+}

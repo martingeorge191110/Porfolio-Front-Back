@@ -1,0 +1,30 @@
+.scrBtn {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 20%;
+    color: rgb(218, 218, 218);
+    padding: 2rem;
+    transition: 0.5s ease-in-out; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(64, 16, 109);
+    font-size: 1rem;
+    font-weight: 800;
+    border: none;
+    z-index: 1000;
+}
+
+.scrBtn:hover {
+    box-shadow: 
+    0 0 5px rgb(186, 123, 244), 
+    0 0 10px rgb(186, 123, 244), 
+    0 0 20px rgb(186, 123, 244), 
+    0 0 30px rgb(186, 123, 244);
+    background-color: rgb(218, 218, 218);
+    color: rgb(64, 16, 109);
+}
